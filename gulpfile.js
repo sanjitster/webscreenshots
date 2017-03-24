@@ -66,11 +66,11 @@ gulp.task('screens:small', function () {
 gulp.task('screens:medium', function () {
     var options = {
         screenSize: {
-            width: 900  ,
+            width: 992  ,
             // height: 600
         },
         shotSize: {
-            width: 900,
+            width: 992,
             height: 'all'
         }
     };
@@ -87,7 +87,7 @@ gulp.task('screens:medium', function () {
     }
 });
 
-// Build screenshots from large devices (≥992px)
+// Build screenshots from large devices (≥1200px)
 gulp.task('screens:large', function () {
     var options = {
         screenSize: {
